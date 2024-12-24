@@ -1,4 +1,4 @@
-# Chitchat GPT
+# ChitChat GPT
 
 Chitchat GPT is an interactive chatbot application built using APIs, HTML, CSS, and JavaScript. It offers engaging and dynamic conversations powered by GPT technology, providing a seamless user experience.
 
