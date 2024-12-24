@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit Chat GPT</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Chit Chat GPT</h1>
+        <div class="form-group">
+            <label for="message">Enter Your Message:</label>
+            <textarea id="message" placeholder="Type your message here..."></textarea>
+        </div>
+        <button onclick="sendMessage()">Send</button>
+        <div class="response-container" id="response-container">
+            <p id="response">Your response will appear here...</p>
+        </div>
+    </div>
+    <script>
+        const body = document.body;
+    
+        document.addEventListener("mousemove", (event) => {
+            const { clientX, clientY } = event;
+            const xPercent = (clientX / window.innerWidth) * 100;
+            const yPercent = (clientY / window.innerHeight) * 100;
+    
+            body.style.setProperty("--mouse-x", `${xPercent}%`);
+            body.style.setProperty("--mouse-y", `${yPercent}%`);
+        });
+    </script>
+    <div class="footer">
+        Designed and developed by <span class="name">Bhargav ✨</span>
+    </div>
+</body>
+</html>
