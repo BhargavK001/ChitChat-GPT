@@ -2,6 +2,10 @@
 
 Chitchat GPT is an interactive chatbot application built using APIs, HTML, CSS, and JavaScript. It offers engaging and dynamic conversations powered by GPT technology, providing a seamless user experience.
 
+## Demo
+You can view the live demo of the application here:  
+[ChitChat GPT Demo](https://bhargavk001.github.io/ChitChat-GPT/)
+
 ## Features
 - **Real-Time Chat**: Communicate with the chatbot in real-time.
 - **Responsive Design**: Optimized for various screen sizes, ensuring usability on desktops, tablets, and mobile devices.
